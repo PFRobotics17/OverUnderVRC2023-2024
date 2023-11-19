@@ -11,7 +11,7 @@
 
 void initialize() {
     pros::lcd::initialize();
-    pros::lcd::set_text(5, "WAWEHGFUAWE:UIOkl (init)");
+    pros::lcd::set_text(5, "initialize");
 
     //setting up brake settings ###
     //drivetrain on coast
