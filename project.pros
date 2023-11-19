@@ -1,7 +1,7 @@
 {
     "py/object": "pros.conductor.project.Project",
     "py/state": {
-        "project_name": "downloads",
+        "project_name": "Auton + Drive",
         "target": "v5",
         "templates": {
             "LemLib": {
@@ -331,6 +331,9 @@
                 "version": "4.8.0"
             }
         },
-        "upload_options": {}
+        "upload_options": {
+            "description": "Made By: Team 48700X",
+            "icon": "X"
+        }
     }
 }

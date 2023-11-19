@@ -32,10 +32,10 @@ void setDriveMotors(){
 
     //set motor velocities based on joystick values
 
-    left_front_motor.move_velocity(leftJoystick + 1000);
-    left_back_motor.move_velocity(leftJoystick + 1000);
-    right_front_motor.move_velocity(rightJoystick + 1000);
-    right_back_motor.move_velocity(rightJoystick + 1000);
+    left_front_motor.move_velocity(leftJoystick + 1700);
+    left_back_motor.move_velocity(leftJoystick + 1700);
+    right_front_motor.move_velocity(rightJoystick + 1700);
+    right_back_motor.move_velocity(rightJoystick + 1700);
 
     setDrive(leftJoystick, rightJoystick);
 
